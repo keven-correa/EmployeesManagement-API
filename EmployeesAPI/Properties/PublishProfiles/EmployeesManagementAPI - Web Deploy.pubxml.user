@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8IVyoCbsrEi6W2odPpo65wAAAAACAAAAAAAQZgAAAAEAACAAAABM1pu/2Kcjj7a8SFAFUuM9Jmy/6ueWGilsFj7MLBN8xQAAAAAOgAAAAAIAACAAAADHGa6+mMKzEyxvt/AuYSuwpy5aJZGhgaTvSh/o8TG4LIAAAAAKGpcuUg/Ji8e2PWlV69zkIfxFXLqnFHD9qRQ9I6ZhVhVvdZfaM2XJk/Kc/iKpz748H2ghiVzNw5xtwiWXPvmE0GjDSQrNhjQ/59whz+NfA3Mj6UwoCQoMz6vk5UdD49lOGRxHJdPqwef2P5Jd46salA9ri7UdHDlueDn1C1VPmkAAAAB97gKdFph1Kd3nDEN1pc85accVJF1gd92tbTGZYiPMrKAl/VEpOQMgbYm4LXuSmXIKcw5I5plr24xek3vYWCrA</EncryptedPassword>
+    <History>True|2021-04-30T01:07:08.9526125Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:employeesapidbserver.database.windows.net,1433%3bInitial Catalog=EmployeesAPI_db%3bUser Id=adm%40employeesapidbserver%3bPassword=Laverdad01</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="EmployeesAPI.Entities.ApplicationDbContext">
+      <Value>Data Source=tcp:employeesapidbserver.database.windows.net,1433%3bInitial Catalog=EmployeesAPI_db%3bUser Id=adm%40employeesapidbserver%3bPassword=Laverdad01</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
